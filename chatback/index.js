@@ -14,7 +14,7 @@ import { app, server } from "./socket/socket.js";
 
 app.use(cookieParser());
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://realtime-chatapp-frontend-gs3c.onrender.com",
   credentials:true
 }));
 app.use(express.json());
